@@ -1,1 +1,4 @@
-a npm package
+use
+```shell
+npm create base tempalte
+```
