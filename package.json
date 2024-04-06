@@ -1,7 +1,21 @@
 {
   "name": "create-base-template",
   "version": "1.0.0",
-  "description": "a template",
+  "author": "nian",
+  "description": "A package for creating basic project templates",
+  "homepage": "https://github.com/tenianon/create-base-template",
+  "keywords": [
+    "create",
+    "template"
+  ],
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/tenianon/create-base-template"
+  },
+  "bugs": {
+    "url": "https://github.com/tenianon/create-base-template/issues"
+  },
+  "license": "MIT",
   "main": "index.js",
   "bin": {
     "create-base-template": "./index.js"
@@ -10,8 +24,6 @@
     "dev": "unbuild --stub",
     "build": "unbuild"
   },
-  "author": "tenianon",
-  "license": "MIT",
   "devDependencies": {
     "unbuild": "^2.0.0"
   }
