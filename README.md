@@ -1,4 +1,4 @@
 use
 ```shell
-npm create base tempalte
+pnpm create base template
 ```
