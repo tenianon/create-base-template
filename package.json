@@ -17,14 +17,27 @@
   },
   "license": "MIT",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "create-base-template": "./index.js"
   },
   "scripts": {
     "dev": "unbuild --stub",
-    "build": "unbuild"
+    "build": "unbuild",
+    "lint": "eslint ./src",
+    "lint:debug": "eslint ./src --debug",
+    "lint:fix": "eslint ./src --fix"
   },
   "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@types/prompts": "^2.4.9",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-n": "^17.1.0",
+    "globals": "^15.0.0",
+    "prettier": "3.2.5",
+    "prompts": "^2.4.2",
+    "typescript-eslint": "^7.6.0",
     "unbuild": "^2.0.0"
   }
 }

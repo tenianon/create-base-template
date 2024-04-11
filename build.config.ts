@@ -1,3 +1,3 @@
 export default {
-  entries: ["./src/index"],
-};
+  entries: ['./src/index', './src/i18n/index'],
+}
