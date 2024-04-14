@@ -2,8 +2,7 @@ import path from 'path'
 import prompts from 'prompts'
 import { language } from './i18n/index'
 ;(async () => {
-  const a = '1'
-  const x = 2
+
   const locale = Intl.DateTimeFormat().resolvedOptions().locale
 
   const currentDir = path.resolve('.')

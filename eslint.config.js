@@ -5,6 +5,14 @@ import eslintConfigPrettier from 'eslint-config-prettier'
 
 export default [
   {
+    languageOptions: {
+      globals: globals.node,
+    },
+  },
+  pluginJs.configs.recommended,
+  ...tseslint.configs.recommended,
+  eslintConfigPrettier,
+  {
     rules: {
 
     'no-var': 'off',
@@ -18,12 +26,4 @@ export default [
     '@typescript-eslint/ban-types': 'warn',
     },
   },
-  {
-    languageOptions: {
-      globals: globals.node,
-    },
-  },
-  pluginJs.configs.recommended,
-  ...tseslint.configs.recommended,
-  eslintConfigPrettier,
 ]
