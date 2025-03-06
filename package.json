@@ -1,6 +1,6 @@
 {
   "name": "create-base-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "nian",
   "description": "A package for creating basic project templates",
   "homepage": "https://github.com/tenianon/create-base-template",
