@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
+
 <template>
-  <div>Login</div>
+  <main>123</main>
 </template>
-<style></style>
